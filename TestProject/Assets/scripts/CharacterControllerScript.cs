@@ -12,9 +12,12 @@ public class CharacterControllerScript : MonoBehaviour {
     float groundRadius = 0.2f;
     public LayerMask whatIsGround;
     public bool jump = false;
+    public string message = "Power Up: Jumping acquired.";
+    public float displayTime;
+    public bool displayMessage = false;
 
-	// Use this for initialization
-	void Start()
+    // Use this for initialization
+    void Start()
     {
 	
 	}
@@ -47,6 +50,33 @@ public class CharacterControllerScript : MonoBehaviour {
             GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpForce));
         }
 
+        //decrement the time the message stays on the screen
+        displayTime -= Time.deltaTime;
+        if (displayTime <= 0.0)
+        {
+            displayMessage = false;
+        }
+
+    }
+
+    //if the player meets with a power up, flip the displayMessage to true
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.name == "Arrow2_0")
+        {
+            displayMessage = true;
+            displayTime = 3;
+        }
+
+    }
+
+    //display the powerup message to the user
+    void OnGUI()
+    {
+        if (displayMessage)
+        {
+            GUI.Label(new Rect((Screen.width / 2)-75, (Screen.height / 2)-50, 200f, 200f), message);
+        }
     }
 
     void Flip()//Trick for switching left and right
