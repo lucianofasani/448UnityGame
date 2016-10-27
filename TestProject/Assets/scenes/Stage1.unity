@@ -432,19 +432,10 @@ Transform:
   - {fileID: 1618554373}
   m_Father: {fileID: 193724723}
   m_RootOrder: 1
---- !u!4 &466908351
+--- !u!4 &466908351 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400000, guid: a038b284634e29f4aaf058814aa61a6f, type: 2}
   m_PrefabInternal: {fileID: 909528118}
-  m_GameObject: {fileID: 914189923}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 23.4, y: -11.2, z: 0}
-  m_LocalScale: {x: 1.4662534, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 455316554}
-  m_RootOrder: 0
 --- !u!1 &498519828
 GameObject:
   m_ObjectHideFlags: 0
@@ -741,52 +732,7 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a038b284634e29f4aaf058814aa61a6f, type: 2}
-  m_RootGameObject: {fileID: 914189923}
   m_IsPrefabParent: 0
---- !u!1 &914189923
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: a038b284634e29f4aaf058814aa61a6f, type: 2}
-  m_PrefabInternal: {fileID: 909528118}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 466908351}
-  - 61: {fileID: 914189925}
-  - 114: {fileID: 914189924}
-  m_Layer: 9
-  m_Name: Killzone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &914189924
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400000, guid: a038b284634e29f4aaf058814aa61a6f,
-    type: 2}
-  m_PrefabInternal: {fileID: 909528118}
-  m_GameObject: {fileID: 914189923}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e053b0a94752146e79954ce4df1b5565, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!61 &914189925
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6100000, guid: a038b284634e29f4aaf058814aa61a6f,
-    type: 2}
-  m_PrefabInternal: {fileID: 909528118}
-  m_GameObject: {fileID: 914189923}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_Offset: {x: 26.25035, y: -7.491138}
-  serializedVersion: 2
-  m_Size: {x: 72.56122, y: 4.9515467}
 --- !u!1 &938074229
 GameObject:
   m_ObjectHideFlags: 0
