@@ -962,7 +962,6 @@ GameObject:
   - 124: {fileID: 1031507433}
   - 81: {fileID: 1031507432}
   - 114: {fileID: 1031507437}
-  - 114: {fileID: 1031507438}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1044,7 +1043,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1031507431}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a7fb09fd422de554dbf6dbeaba15fe2c, type: 3}
   m_Name: 
@@ -1055,22 +1054,6 @@ MonoBehaviour:
   bounds: 0
   minCameraPos: {x: -17, y: 5, z: -10}
   maxCameraPos: {x: 1000, y: 1000, z: -10}
---- !u!114 &1031507438
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1031507431}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d8238cc53530b64fbb7828c3d3bb591, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 1328655977}
-  damping: 1
-  lookAheadFactor: 3
-  lookAheadReturnSpeed: 0.5
-  lookAheadMoveThreshold: 0.1
 --- !u!1 &1284167451
 GameObject:
   m_ObjectHideFlags: 0
@@ -1217,7 +1200,6 @@ MonoBehaviour:
   message: 'Power Up: Jumping acquired.'
   displayTime: 0
   displayMessage: 0
-  whichMessage: 0
 --- !u!1 &1515204377
 GameObject:
   m_ObjectHideFlags: 1

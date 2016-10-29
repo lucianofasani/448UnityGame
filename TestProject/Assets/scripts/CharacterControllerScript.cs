@@ -5,16 +5,16 @@ public class CharacterControllerScript : MonoBehaviour {
 
 
     public float maxSpeed = 10f;
-    public float jumpForce;// = 700f
+    public float jumpForce = 700f;
     bool facingRight = true;
     bool grounded = false;
     public Transform groundCheck;
     float groundRadius = 0.2f;
     public LayerMask whatIsGround;
     public bool jump = false;
+    public string message = "Power Up: Jumping acquired.";
     public float displayTime;
     public bool displayMessage = false;
-    public float whichMessage;
 
     // Use this for initialization
     void Start()
@@ -40,7 +40,8 @@ public class CharacterControllerScript : MonoBehaviour {
         {
             Flip();
         }
-    }
+
+	}
 
     void Update()
     {
@@ -55,8 +56,8 @@ public class CharacterControllerScript : MonoBehaviour {
         {
             displayMessage = false;
         }
-    }
 
+    }
 
     //if the player meets with a power up, flip the displayMessage to true
     void OnTriggerEnter2D(Collider2D other)
@@ -65,14 +66,6 @@ public class CharacterControllerScript : MonoBehaviour {
         {
             displayMessage = true;
             displayTime = 3;
-            whichMessage = 1;
-        }
-
-        else if (other.name == "Arrow2_1")
-        {
-            displayMessage = true;
-            displayTime = 3;
-            whichMessage = 2;
         }
 
     }
@@ -80,14 +73,9 @@ public class CharacterControllerScript : MonoBehaviour {
     //display the powerup message to the user
     void OnGUI()
     {
-        if (displayMessage && whichMessage == 1)
+        if (displayMessage)
         {
-            GUI.Label(new Rect((Screen.width / 2)-75, (Screen.height / 2)-50, 200f, 200f), "Power Up: Jumping Acquired");
-        }
-
-        else if (displayMessage && whichMessage == 2)
-        {
-            GUI.Label(new Rect((Screen.width / 2) - 75, (Screen.height / 2) - 50, 200f, 200f), "1 Time Mega Jump Acquired");
+            GUI.Label(new Rect((Screen.width / 2)-75, (Screen.height / 2)-50, 200f, 200f), message);
         }
     }
 
