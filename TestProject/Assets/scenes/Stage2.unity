@@ -90,13 +90,18 @@ NavMeshSettings:
     cellSize: 0.16666667
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &20032215
+=======
+--- !u!1 &151079434
+>>>>>>> refs/remotes/origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
+<<<<<<< HEAD
   - 4: {fileID: 20032216}
   - 212: {fileID: 20032218}
   - 61: {fileID: 20032217}
@@ -1728,6 +1733,13 @@ GameObject:
   - 124: {fileID: 1293958864}
   - 81: {fileID: 1293958863}
   - 114: {fileID: 1293958868}
+=======
+  - 4: {fileID: 151079439}
+  - 20: {fileID: 151079438}
+  - 92: {fileID: 151079437}
+  - 124: {fileID: 151079436}
+  - 81: {fileID: 151079435}
+>>>>>>> refs/remotes/origin/master
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1735,33 +1747,59 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!81 &1293958863
+=======
+--- !u!81 &151079435
+>>>>>>> refs/remotes/origin/master
 AudioListener:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1293958862}
   m_Enabled: 1
 --- !u!124 &1293958864
+=======
+  m_GameObject: {fileID: 151079434}
+  m_Enabled: 1
+--- !u!124 &151079436
+>>>>>>> refs/remotes/origin/master
 Behaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1293958862}
   m_Enabled: 1
 --- !u!92 &1293958865
+=======
+  m_GameObject: {fileID: 151079434}
+  m_Enabled: 1
+--- !u!92 &151079437
+>>>>>>> refs/remotes/origin/master
 Behaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1293958862}
   m_Enabled: 1
 --- !u!20 &1293958866
+=======
+  m_GameObject: {fileID: 151079434}
+  m_Enabled: 1
+--- !u!20 &151079438
+>>>>>>> refs/remotes/origin/master
 Camera:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1293958862}
+=======
+  m_GameObject: {fileID: 151079434}
+>>>>>>> refs/remotes/origin/master
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
@@ -1776,7 +1814,11 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
+<<<<<<< HEAD
   orthographic size: 10
+=======
+  orthographic size: 5
+>>>>>>> refs/remotes/origin/master
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1790,19 +1832,30 @@ Camera:
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
   m_StereoMirrorMode: 0
+<<<<<<< HEAD
 --- !u!4 &1293958867
+=======
+--- !u!4 &151079439
+>>>>>>> refs/remotes/origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1293958862}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -17, y: 0, z: -10}
+=======
+  m_GameObject: {fileID: 151079434}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+>>>>>>> refs/remotes/origin/master
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+<<<<<<< HEAD
 --- !u!114 &1293958868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2174,12 +2227,16 @@ Prefab:
   m_ParentPrefab: {fileID: 100100000, guid: a038b284634e29f4aaf058814aa61a6f, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1642715567
+=======
+--- !u!1 &211039760
+>>>>>>> refs/remotes/origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
+<<<<<<< HEAD
   - 4: {fileID: 1642715568}
   - 212: {fileID: 1642715574}
   - 50: {fileID: 1642715573}
@@ -2303,47 +2360,78 @@ GameObject:
   - 4: {fileID: 1683299890}
   m_Layer: 8
   m_Name: Background
+=======
+  - 4: {fileID: 211039761}
+  m_Layer: 0
+  m_Name: Foreground
+>>>>>>> refs/remotes/origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &1683299890
+=======
+--- !u!4 &211039761
+>>>>>>> refs/remotes/origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1683299889}
+=======
+  m_GameObject: {fileID: 211039760}
+>>>>>>> refs/remotes/origin/master
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
+<<<<<<< HEAD
   - {fileID: 351542182}
   - {fileID: 1844533510}
   - {fileID: 501792936}
   m_Father: {fileID: 738421884}
   m_RootOrder: 0
 --- !u!1 &1693614972
+=======
+  - {fileID: 1778953608}
+  m_Father: {fileID: 324392935}
+  m_RootOrder: 2
+--- !u!1 &324392934
+>>>>>>> refs/remotes/origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
+<<<<<<< HEAD
   - 4: {fileID: 1693614973}
   m_Layer: 0
   m_Name: Foreground
+=======
+  - 4: {fileID: 324392935}
+  m_Layer: 0
+  m_Name: Level
+>>>>>>> refs/remotes/origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &1693614973
+=======
+--- !u!4 &324392935
+>>>>>>> refs/remotes/origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1693614972}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -2363,30 +2451,59 @@ Transform:
   m_Father: {fileID: 738421884}
   m_RootOrder: 2
 --- !u!1 &1843639900
+=======
+  m_GameObject: {fileID: 324392934}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -17, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 856655526}
+  - {fileID: 1506850705}
+  - {fileID: 211039761}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+--- !u!1 &856655525
+>>>>>>> refs/remotes/origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
+<<<<<<< HEAD
   - 4: {fileID: 1843639901}
   m_Layer: 9
   m_Name: Middleground
+=======
+  - 4: {fileID: 856655526}
+  m_Layer: 0
+  m_Name: Background
+>>>>>>> refs/remotes/origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &1843639901
+=======
+--- !u!4 &856655526
+>>>>>>> refs/remotes/origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1843639900}
+=======
+  m_GameObject: {fileID: 856655525}
+>>>>>>> refs/remotes/origin/master
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
   m_Children:
   - {fileID: 495850085}
   - {fileID: 1403345710}
@@ -2400,26 +2517,43 @@ Transform:
   m_Father: {fileID: 738421884}
   m_RootOrder: 1
 --- !u!1 &1844533509
+=======
+  m_Children: []
+  m_Father: {fileID: 324392935}
+  m_RootOrder: 0
+--- !u!1 &888489948
+>>>>>>> refs/remotes/origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
+<<<<<<< HEAD
   - 4: {fileID: 1844533510}
   - 212: {fileID: 1844533511}
   m_Layer: 8
   m_Name: firstBackground2
+=======
+  - 4: {fileID: 888489949}
+  m_Layer: 0
+  m_Name: Scripts
+>>>>>>> refs/remotes/origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &1844533510
+=======
+--- !u!4 &888489949
+>>>>>>> refs/remotes/origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1844533509}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 76.5, y: 0, z: 0}
@@ -2462,27 +2596,49 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
 --- !u!1 &1909271016
+=======
+  m_GameObject: {fileID: 888489948}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -17, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+--- !u!1 &1506850704
+>>>>>>> refs/remotes/origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
+<<<<<<< HEAD
   - 4: {fileID: 1909271017}
   - 212: {fileID: 1909271019}
   - 61: {fileID: 1909271018}
   m_Layer: 9
   m_Name: BackWall
+=======
+  - 4: {fileID: 1506850705}
+  m_Layer: 0
+  m_Name: Middleground
+>>>>>>> refs/remotes/origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &1909271017
+=======
+--- !u!4 &1506850705
+>>>>>>> refs/remotes/origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1909271016}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -38.7, y: 0.06, z: 0}
@@ -2539,12 +2695,24 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
 --- !u!1 &2063732050
+=======
+  m_GameObject: {fileID: 1506850704}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 324392935}
+  m_RootOrder: 1
+--- !u!1 &1778953607
+>>>>>>> refs/remotes/origin/master
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
+<<<<<<< HEAD
   - 4: {fileID: 2063732051}
   - 212: {fileID: 2063732056}
   - 50: {fileID: 2063732055}
@@ -2553,16 +2721,26 @@ GameObject:
   - 114: {fileID: 2063732052}
   m_Layer: 0
   m_Name: enemy3
+=======
+  - 4: {fileID: 1778953608}
+  m_Layer: 0
+  m_Name: character
+>>>>>>> refs/remotes/origin/master
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &2063732051
+=======
+--- !u!4 &1778953608
+>>>>>>> refs/remotes/origin/master
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 2063732050}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3.85, y: -1.92, z: 0}
@@ -2658,3 +2836,13 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
+=======
+  m_GameObject: {fileID: 1778953607}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 211039761}
+  m_RootOrder: 0
+>>>>>>> refs/remotes/origin/master
