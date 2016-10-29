@@ -2,14 +2,13 @@
 using System.Collections;
 
 public class EnemiesOnFloor4 : MonoBehaviour {
+    Rect rect = new Rect(0,0,10,10);
+    // Use this for initialization
+    void Start () {
+    }
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    // Update is called once per frame
+    void Update () {
 	
 	}
 
@@ -18,6 +17,7 @@ public class EnemiesOnFloor4 : MonoBehaviour {
         if (col.gameObject.tag == "Player")
         {
             GameObject.Find("enemy8").GetComponent<EnemyScript>().speed = 12;
+            Camera.main.orthographicSize = 12;
         }
     }
 }

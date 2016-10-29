@@ -14,9 +14,13 @@ public class BlockyBoss : MonoBehaviour {
     void Update()
     {
         if (dirRight)
+        {
             transform.Translate(Vector2.right * speed * Time.deltaTime);
+        }
         else
+        {
             transform.Translate(-Vector2.right * speed * Time.deltaTime);
+        }
 
         if (transform.position.x >= 158)
         {
