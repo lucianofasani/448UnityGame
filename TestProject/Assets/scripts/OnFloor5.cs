@@ -24,6 +24,7 @@ public class OnFloor5 : MonoBehaviour {
     {
         if (col.gameObject.tag == "Player")
         {
+            col.gameObject.GetComponent<CharacterControllerScript>().jumpForce = 1000;
             displayMessage = true;
             displayTime = 3;
         }
