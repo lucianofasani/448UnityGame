@@ -17,7 +17,7 @@ public class MegaJumpPowUp : MonoBehaviour {
     {
         if(player.name == "character")
         {
-            player.GetComponent<CharacterControllerScript>().jumpForce = 2150;
+            player.GetComponent<CharacterControllerScript>().jumpForce = 2090;
             Destroy(gameObject);
         }
     }
