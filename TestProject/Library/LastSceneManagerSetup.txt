@@ -8,7 +8,7 @@ sceneSetups:
   isActive: 1
 ||||||| merged common ancestors
 sceneSetups:
-- path: Assets/scenes/Stage1.unity
+- path: Assets/scenes/Stage2.unity
   isLoaded: 1
   isActive: 1
 =======
