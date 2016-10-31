@@ -5,6 +5,9 @@ public class OnFloor5 : MonoBehaviour {
 
     public float displayTime;
     public bool displayMessage = false;
+    public float speed;
+    private bool dirRight = true;
+
     // Use this for initialization
     void Start () {
 	

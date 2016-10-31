@@ -5,7 +5,7 @@ public class EnemiesChase : MonoBehaviour {
 
     public float speed;
     public GameObject player;
-    public GameObject enemy;
+
     // Use this for initialization
     void Start()
     {
@@ -16,7 +16,7 @@ public class EnemiesChase : MonoBehaviour {
     void Update()
     {
         //when player gets past enemy, the enemy will puruse the player
-        if (player.transform.position.x > enemy.transform.position.x + 5)
+        if (player.transform.position.x > transform.position.x + 5)
         {
             transform.Translate(Vector2.right * speed * Time.deltaTime);
         }
