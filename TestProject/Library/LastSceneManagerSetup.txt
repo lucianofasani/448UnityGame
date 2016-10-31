@@ -1,4 +1,12 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/scenes/StageL1.unity
+=======
+<<<<<<< HEAD
+- path: Assets/scenes/SceneDenae.unity
+=======
+- path: Assets/scenes/StageL1.unity
+>>>>>>> Luciano_Branch
+>>>>>>> master
   isLoaded: 1
   isActive: 1
