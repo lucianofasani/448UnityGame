@@ -17,7 +17,7 @@ public class Powerups : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.name == "character")
+        if(other.name == "Player")
         {
             theController.jump = true;
             Destroy(gameObject);
