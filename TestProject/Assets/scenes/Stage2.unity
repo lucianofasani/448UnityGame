@@ -314,6 +314,7 @@ GameObject:
   - 114: {fileID: 252467070}
   - 50: {fileID: 252467072}
   - 114: {fileID: 252467073}
+  - 114: {fileID: 252467074}
   m_Layer: 0
   m_Name: enemy1
   m_TagString: Untagged
@@ -373,7 +374,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 252467067}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8648d5594f8704644bc27eb80578f621, type: 3}
   m_Name: 
@@ -421,6 +422,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9ea9627022f8bd4ea7cfb5abced42b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &252467074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 252467067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e9b40663128f634e8a71080befadd62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 8
+  player: {fileID: 1027188823}
+  enemy: {fileID: 252467067}
 --- !u!1 &351542181
 GameObject:
   m_ObjectHideFlags: 0
