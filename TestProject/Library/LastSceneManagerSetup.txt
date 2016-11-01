@@ -1,27 +1,4 @@
-<<<<<<< HEAD
 sceneSetups:
-- path: Assets/scenes/Stage1.unity
+- path: Assets/scenes/SceneDenae.unity
   isLoaded: 1
-||||||| merged common ancestors
-<<<<<<< HEAD
-sceneSetups:
-- path: Assets/scenes/Stage1.unity
-  isLoaded: 1
-  isActive: 0
-- path: Assets/Stage2.unity
-  isLoaded: 1
-  isActive: 1
-||||||| merged common ancestors
-sceneSetups:
-- path: Assets/scenes/Stage2.unity
-  isLoaded: 1
-=======
-sceneSetups:
-<<<<<<< HEAD
-- path: Assets/scenes/StageL1.unity
-=======
-- path: Assets/scenes/StageL2.unity
->>>>>>> Luciano_Branch
-  isLoaded: 1
->>>>>>> 455a616d31e87a363beea3a21bce6596b5a25d26
   isActive: 1
