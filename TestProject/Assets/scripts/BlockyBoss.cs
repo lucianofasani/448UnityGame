@@ -22,12 +22,12 @@ public class BlockyBoss : MonoBehaviour {
             transform.Translate(-Vector2.right * speed * Time.deltaTime);
         }
 
-        if (transform.position.x >= 158)
+        if (transform.position.x >= 118)
         {
             dirRight = false;
         }
 
-        if (transform.position.x <= 117)
+        if (transform.position.x <= 98)
         {
             dirRight = true;
         }

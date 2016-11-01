@@ -18,7 +18,7 @@ public class DestroyFloor5 : MonoBehaviour {
         {
             GameObject.Find("Main Camera").GetComponent<CameraControl>().target = GameObject.Find("BlockyBoss_0").transform;//camera follows blockyboss when he dies
             GameObject.Find("BlockyBoss_0").GetComponent<BlockyBoss>().speed = 0;
-            Destroy(GameObject.Find("floor5"));
+            Destroy(GameObject.Find("floor4"));
             Destroy(gameObject);
 
         }
