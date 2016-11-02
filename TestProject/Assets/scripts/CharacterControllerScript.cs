@@ -12,7 +12,7 @@ public class CharacterControllerScript : MonoBehaviour {
     float groundRadius = 0.2f;
     public LayerMask whatIsGround;
     public bool jump = false;
-    public string message = "Power Up: Jumping acquired.";
+    public string message = "Power Up: Jumping acquired. Physics!";
     public float displayTime;
     public bool displayMessage = false;
 
