@@ -217,7 +217,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.5
-  m_Text: This is Just the demo version. Grab thing thingy and see what happens.
+  m_Text: This is Just the demo version. Grab the thingy and see what happens.
 --- !u!222 &529419592
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -761,7 +761,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_LineSpacing: 1.5
   m_Text: Welcome!
 --- !u!222 &1629417452
 CanvasRenderer:
